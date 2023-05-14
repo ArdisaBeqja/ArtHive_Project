@@ -29,6 +29,37 @@
             </div>
     </div>
     <!-- header -->
+    <div class="home-body">
+      <div class="title">
+          <h1>"DISCOVER ART. COLLECT JOY."</h1><br><br>
+          <h4>WHERE CREATIVITY MEETS ACCESSIBILITY</h4>
+        </div>
+  
+  
+        <!-- <div class="content">
+      </div> --->
+      <div class="video-container">
+          <video id="myVideo" controls autoplay muted loop>
+            <source src="./Presentation22 (online-video-cutter.com).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      
+      
+          <div class="ArtSide">
+            <p id="ArtHive" style="font-family: 'TT Chocolates ExtraBold' ">ArtHive</p>
+          </div>
+  </div>
  </body>
+ <script>
+  var loader = document.getElementById("preloader");
+  window.addEventListener("load", function () {
+      loader.style.display = "none";
+  })
+  window.onload = function() {
+      var video = document.getElementById('myVideo');
+      video.play(); // Start playing the video
+    };
+</script>
  </html>
  
